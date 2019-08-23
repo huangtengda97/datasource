@@ -7,7 +7,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @MapperScan(value = "com.boot.demo1.mapper")
-@EnableTransactionManagement
 public class Demo1Application {
 
     public static void main(String[] args) {
