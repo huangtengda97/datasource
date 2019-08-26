@@ -4,6 +4,8 @@
 #spring.datasource.password=jdzO1cx*S1%iEsck
 ##主数据库
 spring:
+  main:
+    allow-bean-definition-overriding: true
   readSize: 2
   master:
     datasource:
